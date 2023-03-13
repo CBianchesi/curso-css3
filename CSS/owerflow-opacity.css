@@ -1,13 +1,19 @@
 * {margin: 0; padding: 0;box-sizing: border-box;}
+#conteudo p{
+    opacity: 0.0;
+}
 #conteudo{
     background-color: green;
     width: 300px;
+    height: 50px;
+    overflow: scroll;
     padding: 20px;
-    box-shadow: 10px 10px 5px gray;
+       /*box-shadow: 10px 10px 5px gray;*/
     }
 #conteudo2{
     background-color: gray;
     width: 300px;
+    overflow: hidden;
     padding: 20px;
-    box-shadow: 10px 10px 5px green;
+    /*box-shadow: 10px 10px 5px green;*/
 }
